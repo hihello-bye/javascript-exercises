@@ -1,4 +1,5 @@
 const repeatString = function(word, times) {
+    if (time<0) return "Error"
     let string ="hey"
 for (let i = 0; i < times; i++) {
     string += word;
