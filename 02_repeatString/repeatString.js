@@ -1,8 +1,8 @@
-const repeatString = function(hey, 3) {
+const repeatString = function(word, times) {
     if (time<0) return "Error";
     let string ="";
 for (let i = 0; i < 3; i++) {
-    string += hey;
+    string += word;
 }
 return string;
 };
