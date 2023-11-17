@@ -1,6 +1,8 @@
 const removeFromArray = function(array,...args) {
 const newArray = [];
+array.forEach((item) => {
 newArray.push(item);
+});
 return newArray;
 };
 
